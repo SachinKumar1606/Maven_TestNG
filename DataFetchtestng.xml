@@ -1,12 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
+    <listeners>
+        <listener class-name="Listner.Listeners"></listener>
+    </listeners>
     <test verbose="2" preserve-order="true"
           name="C:/Users/SachinKumar/Documents/Sachin Kumar/Projects/Maven_TestNG/src/test/java/src/test/java/Helo.java">
         <classes>
-            <class name="src.test.java.DataFetching">
+            <class name="Base.DataFetching">
                 <methods>
-                    <include name="login"/>
+                    <include name="run"/>
                 </methods>
             </class>
         </classes>
