@@ -1,4 +1,4 @@
-package src.test.java;
+package Base;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;
