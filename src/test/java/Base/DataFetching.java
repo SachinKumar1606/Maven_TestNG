@@ -22,6 +22,11 @@ public class DataFetching {
     }
 
     @Test
+    void run(){
+        System.out.println("Test1");
+    }
+
+
     void login() throws IOException {
         String path = System.getProperty("user.dir") + "/TestData/Login.xlsx";
         //Reading the Excel file
